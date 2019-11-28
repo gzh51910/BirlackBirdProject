@@ -1,13 +1,13 @@
 import React,{Component} from 'react';
 
-class NewsThing extends Component{
+class TeamGames extends Component{
     render(){
         return(
             <div>
-                NewsThing
+                TeamGames
             </div>
         )
     }
 }
 
-export default NewsThing
+export default TeamGames

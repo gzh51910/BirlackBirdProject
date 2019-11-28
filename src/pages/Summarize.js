@@ -1,13 +1,13 @@
 import React,{Component} from 'react';
 
-class Cartoon extends Component{
+class Summarize extends Component{
     render(){
         return(
             <div>
-                Cartoon
+                Summarize
             </div>
         )
     }
 }
 
-export default Cartoon
+export default Summarize

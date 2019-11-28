@@ -1,13 +1,13 @@
 import React,{Component} from 'react';
 
-class DogTest extends Component{
+class Mine extends Component{
     render(){
         return(
             <div>
-                DogTest
+                Mine
             </div>
         )
     }
 }
 
-export default DogTest
+export default Mine

@@ -1,13 +1,13 @@
 import React,{Component} from 'react';
 
-class ThingList extends Component{
+class Competition extends Component{
     render(){
         return(
             <div>
-                ThingList
+                Competition
             </div>
         )
     }
 }
 
-export default ThingList
+export default Competition
