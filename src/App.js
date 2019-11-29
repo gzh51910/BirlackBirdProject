@@ -13,11 +13,13 @@ import Help from './pages/Help';
 import Summarize from './pages/Summarize';
 import TeamGames from './pages/TeamGames';
 
-import { Drawer, Button, Radio } from 'antd';
-
+import AppHeader from './components/Home_header';
+import { Drawer, Button, Radio, Collapse,Icon } from 'antd';
+const { Panel } = Collapse;
 const RadioGroup = Radio.Group;
+
 class App extends Component {
-  state = { visible: false, placement: 'top' };
+  state = { visible: false, placement: 'top',position:'relative'};
 
   showDrawer = () => {
     this.setState({
@@ -31,26 +33,33 @@ class App extends Component {
     });
   };
 
+  onChange = e => {
+    this.setState({
+      placement: e.target.value,
+    });
+  };
+
 
   render() {
     return (
       <div>
-        <div>
-        <Button type="primary" onClick={this.showDrawer}>
-          Open
-        </Button>
-        <Drawer
-          title="Basic Drawer"
-          placement={this.state.placement}
-          closable={false}
-          onClose={this.onClose}
-          visible={this.state.visible}
-        >
-          <p>Some contents...</p>
-          <p>Some contents...</p>
-          <p>Some contents...</p>
-        </Drawer>
-      </div>
+       <header>
+       <Collapse defaultActiveKey={['2']} >
+          <Panel showArrow={false} header={<AppHeader/>} key="1" style={{background:'#333'}}>
+            <p>线路</p>
+            <p>赛事</p>
+            <p>实景系统</p>
+            <p>小结</p>
+            <p>下载</p>
+            <p>帮助</p>
+            <aside><button>制作路书</button><button>号码牌</button></aside>
+            <div style={{ marginBottom: 16 }}>
+    <Input addonBefore="搜索" addonAfter={<Icon type="search" />} defaultValue="mysite" />
+            </div>
+         </Panel>
+       </Collapse>
+       </header>
+        
 
         <Switch>
           <Route path="/home" component={Home} />
