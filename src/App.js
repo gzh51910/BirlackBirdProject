@@ -13,8 +13,12 @@ import Help from './pages/Help';
 import Summarize from './pages/Summarize';
 import TeamGames from './pages/TeamGames';
 
+import Android from './img/download-android.png'
+import Iphone from './img/download-iphone.png'
+import WeiXin from './img/weixin_gongzhonghao.png'
+
 import AppHeader from './components/Home_header';
-import { Drawer, Button, Radio, Collapse,Icon } from 'antd';
+import { Drawer, Button, Radio, Collapse,Icon,Input } from 'antd';
 const { Panel } = Collapse;
 const RadioGroup = Radio.Group;
 
@@ -44,7 +48,7 @@ class App extends Component {
     return (
       <div>
        <header>
-       <Collapse defaultActiveKey={['2']} >
+       <Collapse defaultActiveKey={['2']}>
           <Panel showArrow={false} header={<AppHeader/>} key="1" style={{background:'#333'}}>
             <p>线路</p>
             <p>赛事</p>
@@ -52,10 +56,11 @@ class App extends Component {
             <p>小结</p>
             <p>下载</p>
             <p>帮助</p>
-            <aside><button>制作路书</button><button>号码牌</button></aside>
-            <div style={{ marginBottom: 16 }}>
+            <p><button>制作路书</button><button>号码牌</button></p>
+            <p style={{ marginBottom: 16 }}>
     <Input addonBefore="搜索" addonAfter={<Icon type="search" />} defaultValue="mysite" />
-            </div>
+            </p>
+            <p>登录</p>
          </Panel>
        </Collapse>
        </header>
@@ -77,9 +82,17 @@ class App extends Component {
           <Redirect to="/notfound" />
         </Switch>
         <footer>
+          <section>
           <aside>
             <h4>下载</h4>
+            <ul>
+              <li style={{listStyle:"none"}}><a href="http://www.blackbirdsport.com/public/download/apk/blackbird_bike?version=current">
+              <img src={Android} title="安卓下载" /></a></li>
+              <li style={{listStyle:"none"}}><a href="https://itunes.apple.com/cn/app/hei-niao-dan-che/id714004498?ls=1&mt=8">
+                <img src={Iphone} title="苹果下载" /></a></li>
+            </ul>
           </aside>
+          </section>
         </footer>
       </div>
     )
