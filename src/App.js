@@ -13,11 +13,45 @@ import Help from './pages/Help';
 import Summarize from './pages/Summarize';
 import TeamGames from './pages/TeamGames';
 
+import { Drawer, Button, Radio } from 'antd';
 
+const RadioGroup = Radio.Group;
 class App extends Component {
+  state = { visible: false, placement: 'top' };
+
+  showDrawer = () => {
+    this.setState({
+      visible: true,
+    });
+  };
+
+  onClose = () => {
+    this.setState({
+      visible: false,
+    });
+  };
+
+
   render() {
     return (
       <div>
+        <div>
+        <Button type="primary" onClick={this.showDrawer}>
+          Open
+        </Button>
+        <Drawer
+          title="Basic Drawer"
+          placement={this.state.placement}
+          closable={false}
+          onClose={this.onClose}
+          visible={this.state.visible}
+        >
+          <p>Some contents...</p>
+          <p>Some contents...</p>
+          <p>Some contents...</p>
+        </Drawer>
+      </div>
+
         <Switch>
           <Route path="/home" component={Home} />
           <Route path="/login" component={Login} />
@@ -33,9 +67,13 @@ class App extends Component {
           <Redirect from="/" to="/home" exact />
           <Redirect to="/notfound" />
         </Switch>
+        <footer>
+          <aside>
+            <h4>下载</h4>
+          </aside>
+        </footer>
       </div>
     )
   }
 }
-
 export default App;

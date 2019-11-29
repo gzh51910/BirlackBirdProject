@@ -6,6 +6,8 @@ import './index.css';
 import App from './App';
 // import store from './store'
 import * as serviceWorker from './serviceWorker';
+import 'antd/dist/antd.css'
+
 
 render(
     // <Provider>
