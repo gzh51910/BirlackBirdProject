@@ -12,6 +12,7 @@ import Download from './pages/Download';
 import Help from './pages/Help';
 import Summarize from './pages/Summarize';
 import TeamGames from './pages/TeamGames';
+import RealSystem from './pages/RealSystem';
 
 import Android from './img/download-android.png'
 import Iphone from './img/download-iphone.png'
@@ -23,8 +24,38 @@ const { Panel } = Collapse;
 const RadioGroup = Radio.Group;
 
 class App extends Component {
-  state = { visible: false, placement: 'top',position:'relative'};
 
+  state = { 
+    currentPath: '/home',
+    menu:[
+      {
+        name:'circuit',
+        path:'/circuit',
+        text:"线路"
+      },{
+        name:"competition",
+        path:'/competition',
+        text:'赛事'
+      },{
+        name:'realsystem',
+        path:'/realsystem',
+        text:'实景系统'
+      },{
+        name:'summarize',
+        path:'/summarize',
+        text:'小结'
+      },{
+        name:'download',
+        path:'/download',
+        text:'下载'
+      },{
+        name:'help',
+        path:'/help',
+        text:'帮助'
+      }
+    ]
+  };
+  fontSize1={fontSize:"12px"}
   showDrawer = () => {
     this.setState({
       visible: true,
@@ -43,24 +74,32 @@ class App extends Component {
     });
   };
 
-
+  goto = (path) => {   
+    this.props.history.push(path)
+    
+  }
   render() {
     return (
       <div>
-       <header>
-       <Collapse defaultActiveKey={['2']}>
-          <Panel showArrow={false} header={<AppHeader/>} key="1" style={{background:'#333'}}>
-            <p>线路</p>
-            <p>赛事</p>
-            <p>实景系统</p>
-            <p>小结</p>
-            <p>下载</p>
-            <p>帮助</p>
-            <p><button>制作路书</button><button>号码牌</button></p>
+       <header >
+       <Collapse defaultActiveKey={['2']} >
+          <Panel showArrow={false} header={<AppHeader/>} key="1" style={{background:'#333',color:'#9d9d9d',padding:'0'}}>
+            <nav style={{color:'#9d9d9d',background:'#333',margin:0,padding:"15px"}}>
+              <ul className="App_head">
+              {
+                this.state.menu.map(item=>{
+                  return <li key={item.path} onClick={this.goto.bind(this,item.path)}>
+                    {item.text}
+                  </li>
+                })
+              }
+              </ul>
+            <p> <Button>制作路书</Button> <Button>号码牌</Button></p>
             <p style={{ marginBottom: 16 }}>
-    <Input addonBefore="搜索" addonAfter={<Icon type="search" />} defaultValue="mysite" />
+    <Input addonBefore="搜索" addonAfter={<Icon type="search" />} defaultValue="线路名称，路书ID" />
             </p>
             <p>登录</p>
+            </nav>
          </Panel>
        </Collapse>
        </header>
@@ -71,6 +110,7 @@ class App extends Component {
           <Route path="/login" component={Login} />
           <Route path="/circuit" component={Circuit} />
           <Route path="/circuitdetails" component={CircuitDetails} />
+          <Route path="/realsystem" component={RealSystem} />
           <Route path="/competition" component={Competition} />
           <Route path="/competitiondetails" component={CompetitionDetails} />
           <Route path="/download" component={Download} />
@@ -82,15 +122,39 @@ class App extends Component {
           <Redirect to="/notfound" />
         </Switch>
         <footer>
-          <section>
-          <aside>
-            <h4>下载</h4>
-            <ul>
+          <section style={{padding:'0 15px'}}>
+          <aside >
+            <h3>下载</h3>
+            <ul style={{padding:0}}>
               <li style={{listStyle:"none"}}><a href="http://www.blackbirdsport.com/public/download/apk/blackbird_bike?version=current">
               <img src={Android} title="安卓下载" /></a></li>
               <li style={{listStyle:"none"}}><a href="https://itunes.apple.com/cn/app/hei-niao-dan-che/id714004498?ls=1&mt=8">
                 <img src={Iphone} title="苹果下载" /></a></li>
             </ul>
+             <a href="http://download.blackbirdsport.com/apk/%E7%A0%81%E8%A1%A8%E5%B7%A5%E5%85%B7.apk"><Button>码表工具</Button></a>
+          </aside>
+          <aside >
+            <h3>关注</h3>
+            <p style={this.fontSize1}>官方微博：<span style={{color:"#999"}}>@黑鸟单车</span></p>
+            <p style={this.fontSize1}>QQ:255499016 黑鸟</p>
+            <div style={this.fontSize1}>微信公众号：黑鸟单车 <img src={WeiXin} style={{display:"inline-block",verticalAlign:" middle"}}/></div>
+          </aside>
+          <aside>
+            <h3>服务</h3>
+            <ul style={{padding:0}}>
+              <li style={{listStyle:"none",fontSize:"12px",color:"#999"}}>服务提供商</li>
+              <li style={{listStyle:"none",fontSize:"12px",color:"#999"}}>赛事主办方</li>
+              <li style={{listStyle:"none",fontSize:"12px",color:"#999"}}>产品经销商</li>
+            </ul>
+          </aside>
+          <aside>
+            <h3>说明书</h3>
+            <p><a style={{listStyle:"none",fontSize:"12px",color:"#999"}} href="http://www.blackbirdsport.com/public/docs/computer">码表说明书</a></p>
+          </aside>
+          <aside>
+            <h3>&nbsp;</h3>
+            <p style={{listStyle:"none",fontSize:"12px",color:"#999",margin:'0'}}>黑鸟单车——您的骑行伴侣</p>
+            <p style={this.fontSize1}>©2015 <span style={{color:"#999"}}>京ICP备10005549号</span>，北京黑鸟科技有限公司， 保留所有。</p>
           </aside>
           </section>
         </footer>
@@ -98,4 +162,5 @@ class App extends Component {
     )
   }
 }
+App = withRouter(App);
 export default App;

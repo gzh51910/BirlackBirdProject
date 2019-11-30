@@ -20,3 +20,30 @@
 .App-link {
   color: #09d3ac;
 }
+
+header .ant-collapse-content > .ant-collapse-content-box{
+  padding:0;
+  border-top: none;
+  
+}
+header .ant-collapse{
+  border: none;
+}
+header .ant-collapse-item:last-child > .ant-collapse-header{
+  border-radius: none;
+}
+header .ant-collapse > .ant-collapse-item{
+  border-bottom: none;
+}
+header .ant-collapse > .ant-collapse-item:last-child{
+  border-radius: none;
+}
+.App_head{
+  margin: 0;
+  padding: 0;
+}
+.App_head li{
+  list-style: none;
+  padding: 0;
+  margin: 0 0 14px;
+}
