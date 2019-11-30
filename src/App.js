@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Route, Redirect, Switch, withRouter } from 'react-router-dom';
-import './App.css';
+import './App.scss';
 
 import Home from './pages/Home';
 import Login from './pages/Login';
@@ -17,7 +17,7 @@ import TeamGames from './pages/TeamGames';
 class App extends Component {
   render() {
     return (
-      <div>
+      <div id="subject">
         <Switch>
           <Route path="/home" component={Home} />
           <Route path="/login" component={Login} />
