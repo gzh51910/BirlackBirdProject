@@ -14,7 +14,7 @@ import Summarize from './pages/Summarize';
 import TeamGames from './pages/TeamGames';
 
 import AppHeader from './components/Home_header';
-import { Drawer, Button, Radio, Collapse, Icon } from 'antd';
+import { Drawer, Button, Radio, Collapse, Icon,Input } from 'antd';
 const { Panel } = Collapse;
 const RadioGroup = Radio.Group;
 

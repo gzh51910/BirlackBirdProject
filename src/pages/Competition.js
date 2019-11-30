@@ -21,7 +21,6 @@ class Competition extends Component {
             }
         });
         let commedList = Competition
-
         this.setState({
             commedList
         })

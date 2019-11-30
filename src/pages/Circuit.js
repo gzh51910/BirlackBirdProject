@@ -2,15 +2,37 @@ import React,{Component} from 'react';
 import './Circuit.scss';
 import 'antd/dist/antd.css';
 import { Tabs,Button, Icon } from 'antd';
+import {mainUrl} from '../config';
+import axios from 'axios';
+
+
 
 const { TabPane } = Tabs;
 
 
 class Circuit extends Component{
- 
+    state={
+      data:{},
+      CircuitList:[]
+    }
+    async componentDidMount(){
+         let{data:{data:Circuit}} =await axios.get(mainUrl +"/goods",{
+           params:{
+               gather:"Circuit"
+           }
+         });
+         let CircuitList=Circuit
+         
+         this.setState({
+           CircuitList
+         })
+    }
+
     render(){
+      let {CircuitList} =this.state;
+      
         return(
-            <div>
+            <div className="Sum">
                <div className="Sum-Top">
                      <div className="Sum-Top-center">
                         <h4>黑鸟单车</h4>
@@ -30,36 +52,33 @@ class Circuit extends Component{
                   <h3>服务站</h3>
                   <h4>沿途服务站，提供专业后援。补给、休息、单车保养。</h4>
             </div>
-            <div className="Sum-Main">
-            <Tabs  type="card">
+           <div className="Sum-Main">
+                  <Tabs  type="card">
                   <TabPane tab="经典路线" key="1">
-                      <div className="Sum-Img">
-                        <img src="http://image.blackbirdsport.com/routes/year_2015/20151127/12335_1448555621847.jpeg"></img>
-                        <div className="Sum-text">
-                             <h3>318川藏线</h3>
-                             <i><Icon type="environment" />成都</i>
-                        </div>
-                      </div>
-                      <div className="Sum-Img">
-                        <img src="http://image.blackbirdsport.com/routes/year_2015/20151127/12335_1448555621847.jpeg"></img>
-                        <div className="Sum-text">
-                             <h3>318川藏线</h3>
-                             <i><Icon type="environment" />成都</i>
-                        </div>
-                      </div>
+                      {
+                          CircuitList.map(item=>{
+                            return  <div className="Sum-Img" key={item._id}>
+                            <img src={item.src}></img>
+                            <div className="Sum-text">
+                                 <div className="text">{item.name}</div>
+                                <div className="text1"><Icon type="environment" />{item.ad}</div>
+                            </div>
+                          </div>
+                          })
+                        }
                   </TabPane>
                   <TabPane tab="附近路线" key="2">
                     附近还没有线路哦，创建一个吧！ 
                      <Button type="primary">创建线路</Button>
                   </TabPane>
                 </Tabs>
-              </div>
-              </div>
-);
+              </div> 
 
-            
-        
-        
+
+
+
+              </div>
+);    
     }
     
 }
