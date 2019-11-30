@@ -1,0 +1,11 @@
+{
+    "PORT": "4040",
+    "dbUrl": "mongodb://localhost:40404",
+    "dbName": "blackBird",
+    "mysql_host": "localhost",
+    "mysql_port": "4040",
+    "mysql_user": "root",
+    "mysql_password": "",
+    "mysql_database": "mhm",
+    "mainUrl": "http://localhost:1910"
+}
