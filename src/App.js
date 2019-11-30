@@ -14,7 +14,7 @@ import Summarize from './pages/Summarize';
 import TeamGames from './pages/TeamGames';
 
 import AppHeader from './components/Home_header';
-import { Drawer, Button, Radio, Collapse, Icon } from 'antd';
+import { Drawer, Button, Radio, Collapse, Icon,Input } from 'antd';
 const { Panel } = Collapse;
 const RadioGroup = Radio.Group;
 
@@ -68,7 +68,7 @@ class App extends Component {
             <Route path="/circuit" component={Circuit} />
             <Route path="/circuitdetails" component={CircuitDetails} />
             <Route path="/competition" component={Competition} />
-            <Route path="/competitiondetails" component={CompetitionDetails} />
+            <Route path="/competitiondetails/:id" component={CompetitionDetails} />
             <Route path="/download" component={Download} />
             <Route path="/help" component={Help} />
             <Route path="/summarize" component={Summarize} />
