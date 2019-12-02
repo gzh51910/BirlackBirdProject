@@ -24,7 +24,6 @@ class Competition extends Component {
         this.setState({
             commedList
         })
-
     }
     render() {
         let { commedList } = this.state
