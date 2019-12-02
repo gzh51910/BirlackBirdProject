@@ -27,11 +27,12 @@ class Circuit extends Component{
            CircuitList
          })
     }
-
+   goto=()=>{
+           this.props.history.push(`/CircuitDetails`)
+   }
     render(){
       let {CircuitList} =this.state;
-      
-        return(
+        return( 
             <div className="Sum">
                <div className="Sum-Top">
                      <div className="Sum-Top-center">
@@ -60,7 +61,7 @@ class Circuit extends Component{
                             return  <div className="Sum-Img" key={item._id}>
                             <img src={item.src}></img>
                             <div className="Sum-text">
-                                 <div className="text">{item.name}</div>
+                                 <div className="text" onClick={this.goto}>{item.name}</div>
                                 <div className="text1"><Icon type="environment" />{item.ad}</div>
                             </div>
                           </div>
