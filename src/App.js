@@ -12,6 +12,7 @@ import Download from './pages/Download';
 import Help from './pages/Help';
 import Summarize from './pages/Summarize';
 import TeamGames from './pages/TeamGames';
+import Enlist from './pages/Enlist';
 
 import AppHeader from './components/Home_header';
 import { Drawer, Button, Radio, Collapse, Icon,Input } from 'antd';
@@ -73,6 +74,7 @@ class App extends Component {
             <Route path="/help" component={Help} />
             <Route path="/summarize" component={Summarize} />
             <Route path="/teamgames" component={TeamGames} />
+            <Route path="/enlist" component={Enlist}/>
             <Route path="/notfound" render={() => <div>404页面</div>} />
             <Redirect from="/" to="/home" exact />
             <Redirect to="/notfound" />
