@@ -120,7 +120,7 @@ class App extends Component {
             <Redirect to="/notfound" />
           </Switch>
         </div>
-        <footer>
+        <footer style={{marginTop:"10px",borderTop:"1px solid #364d79"}}>
           <section style={{padding:'0 15px'}}>
           <aside >
             <h3>下载</h3>
