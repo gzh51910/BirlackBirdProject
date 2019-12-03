@@ -1,83 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
-
 <body>
     <script>
-        var all = document.querySelector(".container-fluid")
-        var oImgList = all.querySelectorAll(".carousel-inner img")
-        var info_arr = []
-        var info = {}
-        //轮播图
-        var oImgArr = []
-        for (var i = 0, len = oImgList.length; i < len; i++) {
-            oImgArr.push(oImgList[i].src)
-        }
-        info.oImgArr = oImgArr
-        //个人信息
-        info.gr_img = all.querySelectorAll('.media img')[0].src
-        info.gr_title = all.querySelectorAll('.media .media-body .text-overflow')[0].innerText
-        info.gr_site = all.querySelectorAll('.media .media-body .city-time .text-overflow')[0].innerText
-        info.gr_time = all.querySelectorAll('.media .media-body .city-time .fr')[0].innerText
-        //线路介绍
-        info.circuit = all.querySelectorAll('.route-item-container .pre')[0].innerText
-        //最近骑过
-        var info_lately_list = all.querySelectorAll('.route-item-container')[1]
-        var a = info_lately_list.querySelectorAll(".media .media-left img")
-        var b = info_lately_list.querySelectorAll(".media .media-body ")
-        var info_lately1 = []
-        for (var j = 0, len = a.length; j < len; j++) {
-            var o = {}
-            o.tx = a[j].src
-            o.id = b[j].querySelectorAll("span")[1].innerText
-            info_lately1.push(o)
-        }
-        //附近路书
-        //右
-        info.nearby_left_img = all.querySelectorAll('.route-item-container')[2].querySelectorAll(".media-left img")[0].src
-        info.nearby_left_title = all.querySelectorAll('.route-item-container')[2].querySelectorAll(".media-body")[0].querySelectorAll(".width-2rem .text-overflow")[0].innerText
-        info.nearby_left_gl = all.querySelectorAll('.route-item-container')[2].querySelectorAll(".media-body")[0].querySelectorAll(".width-2rem .pt10")[0].innerText
-        info.nearby_left_bh = all.querySelectorAll('.route-item-container')[2].querySelectorAll(".media-body")[0].querySelectorAll(".width-2rem .f20-rem")[1].innerText
-        //左
-        info.nearby_right_img = all.querySelectorAll('.route-item-container')[2].querySelectorAll(".media-left img")[1].src
-        info.nearby_right_id = all.querySelectorAll('.route-item-container')[2].querySelectorAll(".media-body .nearby-route-creator .text-overflow")[0].innerText
-        info.nearby_right_dz = all.querySelectorAll('.route-item-container')[2].querySelectorAll(".media-body .nearby-route-creator .city-time")[0].innerText
-        info.info_lately = info_lately1
-
-        info_arr.push(info)
-        JSON.stringify(info_arr)
-
-        //评论
-        var all2 = all.querySelectorAll('.route-item-con')
-        var all2_arr = []
-        for (var z = 0, len = all2.length; z < len; z++) {
-            var q = {}
-            q.pl_gr_img = all2[z].querySelector(".media-left img").src
-            q.pl_gr_id = all2[z].querySelector(".media-body .comment-account .text-overflow").innerText
-            q.pl_gr_time = all2[z].querySelector(".media-body .comment-account .fr").innerText
-            q.pl_gr_cont = all2[z].querySelector(".media-body .break-all").innerText
-            try {
-                q.pl_gr_src = all2[z].querySelector(".media-body .break-all img").src
-            } catch (err) {
-                q.pl_gr_src = ""
-            }
-            try {
-                q.pl_gr_src = all2[z].querySelector(".media-body .comment-image").src
-            } catch (err) {
-                q.pl_gr_src1 = ""
-            }
-            all2_arr.push(q)
-        }
-        JSON.stringify(all2_arr)
-
-
+        
     </script>
 </body>
-
 </html>

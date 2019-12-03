@@ -1,5 +1,8 @@
 .Sum{
     width: 100%;
+    h4{
+        margin: 0;
+    }
     .Sum-Top{
         // background: red;
         background: url("http://www.blackbirdsport.com/static/img/route-bg-2.jpg") no-repeat;
@@ -72,7 +75,7 @@
             margin-bottom: 10px;
         }
        h4{
-            margin:0px 15px;
+            margin:0px 0x;
             font-size: 21px;
             font-weight: 200;
             width: 100%;
@@ -103,14 +106,6 @@
                     width: 100%;
                     position: absolute;
                     top: 32%;
-                    a{
-                        color:white;
-                        text-decoration: none;
-                        cursor: pointer;
-                        &:hover{
-                            text-decoration: underline white;
-                        }
-                    }
                     .text{
                         text-align: center;
                         font-size: 24px;

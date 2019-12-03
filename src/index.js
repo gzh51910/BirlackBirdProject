@@ -1,5 +1,5 @@
 import React from 'react';
-import { render } from 'react-dom';
+import ReactDOM from 'react-dom';
 import { HashRouter } from 'react-router-dom';
 // import { Provider } from 'react-redux'
 import './index.css';
@@ -9,7 +9,7 @@ import * as serviceWorker from './serviceWorker';
 import 'antd/dist/antd.css'
 
 
-render(
+ReactDOM.render(
     // <Provider>
         <HashRouter>
             <App />

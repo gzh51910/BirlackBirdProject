@@ -1,0 +1,122 @@
+#summarize {
+
+    header {
+
+        display: flex;
+        position: absolute;
+        width: 100%;
+        top: 0;
+        background: #37363b;
+        align-items: center;
+        padding: 0 13px;
+
+        .lf {
+            display: flex;
+            height: 67px;
+            align-items: center;
+            width: 100%;
+            top: 0;
+            color: #fff;
+            box-sizing: border-box;
+
+            aside {
+                width: 96px;
+                height: 35px;
+                box-sizing: border-box;
+
+                p {
+                    margin: 0;
+                    padding: 0;
+
+                    &:nth-of-type(2) {
+                        text-align: right;
+                    }
+                }
+            }
+
+            img {
+                border-radius: 50%;
+                width: 42px;
+                margin: 0 9px 0 13px;
+
+            }
+            
+        }
+
+        .ant-btn {
+            border-radius: 15px;
+            border-color: #00c49a;
+            color: #00c49a;
+        }
+
+    }
+
+    main {
+        ul {
+            padding: 8px;
+            padding-top: 30px;
+
+            li {
+                display: flex;
+                flex-direction: column;
+                margin: 0;
+                padding: 0;
+                padding-bottom: 5%;
+
+                figure {
+                    display: flex;
+                    &:nth-of-type(1) {
+                        span{
+                            font-size: 12px;
+                            color: #b0b0b0;
+                        }
+                        img {
+                            width: 10%;
+                            height: 10%;
+                            border-radius: 50%;
+                        }
+
+                        figcaption {
+                            margin-left: 3%;
+                        }
+                        p {
+                            margin: 0;
+    
+                            width: 100%;
+                        }
+                    }
+
+                    &:nth-of-type(2) {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        p {
+                            margin: 0;
+                            width: 100%;
+                        }
+                        h2{
+                            margin: 0;
+                        }
+                        img {
+                            width: 20%;
+                        }
+                        figcaption{
+                            display: flex;
+                            height: 60px;
+                            flex-direction: column;
+                            justify-content: space-between;
+                            span{
+                                margin-right: 5%;
+                            }
+                        }
+                        span{
+                            font-size: 12px;
+                            color: black;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}

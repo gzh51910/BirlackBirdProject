@@ -83,9 +83,9 @@ class App extends Component {
     return (
       <div>
        <header >
-       <Collapse defaultActiveKey={['2']} >
+       <Collapse defaultActiveKey={['2']}>
           <Panel showArrow={false} header={<AppHeader/>} key="1" style={{background:'#333',color:'#9d9d9d',padding:'0'}}>
-            <nav style={{color:'#9d9d9d',background:'#333',margin:0,padding:"15px"}}>
+            <nav style={{color:'#9d9d9d',background:'#333',margin:0,padding:"10px"}}>
               <ul className="App_head">
               {
                 this.state.menu.map(item=>{
@@ -99,7 +99,7 @@ class App extends Component {
             <p style={{ marginBottom: 16 }}>
     <Input addonBefore="搜索" addonAfter={<Icon type="search" />} defaultValue="线路名称，路书ID" />
             </p>
-            <p>登录</p>
+            <p onClick={this.goto.bind(this,'/login')}>登录</p>
             </nav>
          </Panel>
        </Collapse>
@@ -109,7 +109,8 @@ class App extends Component {
             <Route path="/home" component={Home} />
             <Route path="/login" component={Login} />
             <Route path="/circuit" component={Circuit} />
-            <Route path="/circuitdetails/:id" component={CircuitDetails} />
+            <Route path="/realsystem" component={RealSystem} />
+            <Route path="/circuitdetails" component={CircuitDetails} />
             <Route path="/competition" component={Competition} />
             <Route path="/competitiondetails/:id" component={CompetitionDetails} />
             <Route path="/download" component={Download} />
