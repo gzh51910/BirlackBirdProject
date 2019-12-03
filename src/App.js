@@ -17,6 +17,7 @@ import RealSystem from './pages/RealSystem';
 import Android from './img/download-android.png'
 import Iphone from './img/download-iphone.png'
 import WeiXin from './img/weixin_gongzhonghao.png'
+import Enlist from './pages/Enlist';
 
 import AppHeader from './components/Home_header';
 import { Drawer, Button, Radio, Collapse, Icon,Input } from 'antd';
@@ -115,12 +116,13 @@ class App extends Component {
             <Route path="/help" component={Help} />
             <Route path="/summarize" component={Summarize} />
             <Route path="/teamgames" component={TeamGames} />
+            <Route path="/enlist" component={Enlist}/>
             <Route path="/notfound" render={() => <div>404页面</div>} />
             <Redirect from="/" to="/home" exact />
             <Redirect to="/notfound" />
           </Switch>
         </div>
-        <footer>
+        <footer style={{marginTop:"10px",borderTop:"1px solid #364d79"}}>
           <section style={{padding:'0 15px'}}>
           <aside >
             <h3>下载</h3>

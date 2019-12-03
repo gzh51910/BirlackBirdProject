@@ -29,8 +29,10 @@ class CompetitionDetails extends Component {
         this.setState({
             commedList
         })
-
     }
+    goto=(id)=>{
+        this.props.history.push(`/Enlist`)
+        }
     render() {
         let { commedList } = this.state
 
@@ -55,7 +57,7 @@ class CompetitionDetails extends Component {
                                     <p className="CompetitionDetails_title">{item.activityTitle}</p>
                                     <p>线路	<span>{item.circuit}</span></p>
                                     <p>报名截止时间	<span>{apply_endTime}</span></p>
-                                    <p>比赛时间	<span>{item.startTime} 至 {endTime}</span></p>
+                                    <p>比赛时间	<span>{endTime} 至 {item.startTime}</span></p>
                                     <p>地点	<span>{item.assemblyAddress}</span></p>
                                     <img src="http://pics.blackbirdsport.com/album/201909/3168281_1568717529111.png" />
                                 </div>
@@ -117,11 +119,15 @@ class CompetitionDetails extends Component {
                                 </Tabs>
                             </div>
                             <div className="CompetitionDetails_footer">
-
+                            </div>
+                            <div className="CompetitionDetails_main_bottom">
+                                      <h3>观看直播</h3>
+                                      <h4 onClick={this.goto.bind(this,item.activtyId)}>立即报名</h4>
                             </div>
                         </div>
                     })
                 }
+                  
             </div>
         )
     }

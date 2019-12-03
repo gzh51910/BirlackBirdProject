@@ -1,0 +1,142 @@
+#CompetitionDetails {
+  width: 100%;
+}
+
+#CompetitionDetails .CompetitionDetails_top img {
+  width: 100%;
+}
+
+#CompetitionDetails .CompetitionDetails_top .CompetitionDetails_top_info {
+  padding: 0 5%;
+}
+
+#CompetitionDetails .CompetitionDetails_top .CompetitionDetails_top_info p {
+  font-size: 14px;
+  color: #4a4a4a;
+}
+
+#CompetitionDetails .CompetitionDetails_top .CompetitionDetails_top_info .CompetitionDetails_title {
+  font-size: 22px;
+  color: #60b5f3;
+}
+
+#CompetitionDetails .CompetitionDetails_main {
+  margin-top: 20px;
+}
+
+#CompetitionDetails .CompetitionDetails_main .ant-tabs-nav {
+  width: 100%;
+}
+
+#CompetitionDetails .CompetitionDetails_main .ant-tabs-nav .ant-tabs-tab-active, #CompetitionDetails .CompetitionDetails_main .ant-tabs-nav .ant-tabs-tab {
+  width: 33%;
+  margin-right: 0px;
+  text-align: center;
+}
+
+#CompetitionDetails .CompetitionDetails_main .difficulty {
+  width: 100%;
+  height: 94px;
+  border: 1px solid #ccc;
+}
+
+#CompetitionDetails .CompetitionDetails_main .difficulty p {
+  height: 50%;
+  text-align: center;
+  line-height: 47px;
+  margin-bottom: 0;
+}
+
+#CompetitionDetails .CompetitionDetails_main .difficulty p:nth-of-type(1) {
+  border-bottom: 1px solid #ccc;
+  width: 90%;
+  margin: 0 5%;
+}
+
+#CompetitionDetails .CompetitionDetails_main .arrange {
+  padding: 0 5%;
+  border-bottom: 1px solid #ccc;
+}
+
+#CompetitionDetails .CompetitionDetails_main .arrange .arrange_title {
+  border-bottom: 1px solid #ccc;
+  height: 50px;
+  line-height: 50px;
+}
+
+#CompetitionDetails .CompetitionDetails_main .arrange .html_sj img {
+  width: 100%;
+}
+
+#CompetitionDetails .CompetitionDetails_main .attention {
+  width: 100%;
+  height: 162px;
+  padding: 0 5%;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  margin-top: 10px;
+}
+
+#CompetitionDetails .CompetitionDetails_main .attention .attention_title {
+  border-bottom: 1px solid #ccc;
+  height: 50px;
+  line-height: 50px;
+}
+
+#CompetitionDetails .CompetitionDetails_main .attention .attention_cont {
+  width: 100%;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+
+#CompetitionDetails .CompetitionDetails_main .disclaimer {
+  width: 100%;
+  height: 150px;
+  padding: 0 5%;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  margin-top: 10px;
+}
+
+#CompetitionDetails .CompetitionDetails_main .disclaimer .disclaimer_title {
+  border-bottom: 1px solid #ccc;
+  height: 50px;
+  line-height: 50px;
+}
+
+#CompetitionDetails .CompetitionDetails_main .disclaimer .disclaimer_cont {
+  width: 100%;
+}
+
+#CompetitionDetails .CompetitionDetails_main_bottom {
+  position: fixed;
+  width: 100%;
+  height: 44px;
+  bottom: 0;
+  left: 0;
+}
+
+#CompetitionDetails .CompetitionDetails_main_bottom h3 {
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  line-height: 44px;
+  width: 50%;
+  float: left;
+  background-color: #cccccc;
+  color: white;
+}
+
+#CompetitionDetails .CompetitionDetails_main_bottom h4 {
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  line-height: 44px;
+  width: 50%;
+  float: left;
+  background-color: #60b5f3;
+  color: white;
+}
