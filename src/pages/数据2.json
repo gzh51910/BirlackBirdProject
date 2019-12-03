@@ -1,0 +1,348 @@
+[
+    {
+        "id":5,
+        "oImgArr": [
+            "http://image.blackbirdsport.com/routes/year_2015/20151109/83537_1447054628460.jpeg",
+            "http://image.blackbirdsport.com/routes/year_2015/20151109/83537_1447054629609.jpeg",
+            "http://image.blackbirdsport.com/routes/year_2015/20151109/83537_1447054630890.jpeg"
+        ],
+        "gr_img": "http://pics.blackbirdsport.com/static/icons/helper.png",
+        "gr_title": " 黑鸟助手 ",
+        "gr_site": "北京",
+        "gr_time": "创建于2014年1月1日",
+        "circuit": "妙峰山，门头沟距离城区最近的一座高峰，引无数骑士尽折腰。每年骑行游玩、赛事不断，实数经典中的经典。此路段全程20公里，前7公里缓坡，后13公里是持续上坡，中间12~14公里，这2公里坡度较陡，是路段的一个难点。经过涧沟村以后坡度相对平缓，休息调整之后，可以进行最后冲刺。终点处海拔1000米出头，妙峰山整体坡度较长，海拔提升约800米，难度系数较高。需要骑行3个月~6个月以上的车友，体力较好的可以尝试挑战妙峰山。",
+        "nearby_left_img": "http://image.blackbirdsport.com/streams/year_2015/20151024/1445689080263.png",
+        "nearby_left_title": "北京妙峰山",
+        "nearby_left_gl": "19.53km",
+        "nearby_left_bh": "路书编号 535125",
+        "nearby_right_img": "http://pics.blackbirdsport.com/album/201901/c_5089549_1546521732088jpg@200w_200h",
+        "nearby_right_id": " 行者无疆 ",
+        "nearby_right_dz": " 天津",
+        "info_lately": [
+            {
+                "tx": "http://pics.blackbirdsport.com/album/201909/c_5372070_1569283815240jpg@200w_200h",
+                "id": "HeaToN"
+            },
+            {
+                "tx": "http://image.blackbirdsport.com/default.jpg",
+                "id": "jimmy2560"
+            },
+            {
+                "tx": "http://pics.blackbirdsport.com/album/201804/c_3080285_1523564822362.jpg@200w_200h",
+                "id": "澍"
+            },
+            {
+                "tx": "http://q.qlogo.cn/qqapp/100521394/1BD40D636E541EA0EA5F24AE4E21D2D5/100",
+                "id": "无求"
+            },
+            {
+                "tx": "http://pics.blackbirdsport.com/album/201909/c_5406775_1569274842271jpg@200w_200h",
+                "id": "童心"
+            }
+        ],
+        "comment": [
+            {
+                "pl_gr_img": "http://q.qlogo.cn/qqapp/100521394/E93702094C008CC37936048745CF15C6/40",
+                "pl_gr_id": "小白",
+                "pl_gr_time": "1个月前",
+                "pl_gr_cont": "休闲游",
+                "pl_gr_src": "",
+                "pl_gr_src1": ""
+            },
+            {
+                "pl_gr_img": "http://pics.blackbirdsport.com/album/201911/c_5300456_1573392410526jpg@200w_200h",
+                "pl_gr_id": "廊坊印刷",
+                "pl_gr_time": "1个月前",
+                "pl_gr_cont": "本人最佳成绩70分钟35秒，下次争取破70分钟！",
+                "pl_gr_src": "http://pics.blackbirdsport.com/stream/201910/1963206_1570509821455jpg@640w_400h"
+            },
+            {
+                "pl_gr_img": "http://pics.blackbirdsport.com/album/201707/c_2949332_1499748443956.jpg@200w_200h",
+                "pl_gr_id": "尘影",
+                "pl_gr_time": "2个月前",
+                "pl_gr_cont": "回复@骑毛驴上高速:老哥咨询一下，百里画廊，四海镇，谭拓镇，妙峰山，红井路，十渡，房山。这几个点的路况如何？能骑公路么？十一打算骑一圈。请告知。谢谢",
+                "pl_gr_src": "",
+                "pl_gr_src1": ""
+            },
+            {
+                "pl_gr_img": "http://pics.blackbirdsport.com/album/201907/c_5321977_1561964613512jpg@200w_200h",
+                "pl_gr_id": "和讯",
+                "pl_gr_time": "2个月前",
+                "pl_gr_cont": "爽",
+                "pl_gr_src": "http://pics.blackbirdsport.com/stream/201909/2385834_1569237147738jpg@640w_400h"
+            },
+            {
+                "pl_gr_img": "http://pics.blackbirdsport.com/album/201909/c_5406701_1568706048130jpg@200w_200h",
+                "pl_gr_id": "张利",
+                "pl_gr_time": "2个月前",
+                "pl_gr_cont": "刚刚走了一次，挑战体能和意志啊。",
+                "pl_gr_src": "http://pics.blackbirdsport.com/stream/201909/5487420_1568707413319jpg@640w_400h"
+            },
+            {
+                "pl_gr_img": "http://pics.blackbirdsport.com/album/201903/c_3826995_1553069767107jpg@200w_200h",
+                "pl_gr_id": "平安是福",
+                "pl_gr_time": "2个月前",
+                "pl_gr_cont": "碾压妙峰山",
+                "pl_gr_src": "http://pics.blackbirdsport.com/stream/201909/1082639_1568680431912jpg@640w_400h"
+            },
+            {
+                "pl_gr_img": "http://q.qlogo.cn/qqapp/100521394/E06925E63EC0A3DB0DA18B2455CCA467/100",
+                "pl_gr_id": "闽越花雕",
+                "pl_gr_time": "2个月前",
+                "pl_gr_cont": "还可以",
+                "pl_gr_src": "http://pics.blackbirdsport.com/stream/201909/297101_1568547267563jpg@640w_400h"
+            },
+            {
+                "pl_gr_img": "http://pics.blackbirdsport.com/album/201911/c_5321494_1572765169737png@200w_200h",
+                "pl_gr_id": "可儿",
+                "pl_gr_time": "3个月前",
+                "pl_gr_cont": "坡度大",
+                "pl_gr_src": "http://pics.blackbirdsport.com/stream/201908/5237729_1566968156146jpg@640w_400h"
+            },
+            {
+                "pl_gr_img": "http://pics.blackbirdsport.com/album/201911/c_5321494_1572765169737png@200w_200h",
+                "pl_gr_id": "可儿",
+                "pl_gr_time": "3个月前",
+                "pl_gr_cont": "妙峰山",
+                "pl_gr_src": "http://pics.blackbirdsport.com/stream/201908/5237729_1566968053704jpg@640w_400h"
+            },
+            {
+                "pl_gr_img": "http://thirdwx.qlogo.cn/mmopen/vi_32/bQFDfXNTxUSVlR2BsYvRicKVl4sMCndktnYjX6uayo4sFoCWuxjTN8Uujkh3amU7pjMykC4DicrPvPYqBdaWQD5g/132",
+                "pl_gr_id": "小彭18410409953",
+                "pl_gr_time": "3个月前",
+                "pl_gr_cont": "18410409953",
+                "pl_gr_src": "",
+                "pl_gr_src1": ""
+            },
+            {
+                "pl_gr_img": "http://pics.blackbirdsport.com/album/201903/c_3826995_1553069767107jpg@200w_200h",
+                "pl_gr_id": "平安是福",
+                "pl_gr_time": "4个月前",
+                "pl_gr_cont": "回复@戴德感恩:同款",
+                "pl_gr_src": "",
+                "pl_gr_src1": ""
+            },
+            {
+                "pl_gr_img": "http://pics.blackbirdsport.com/album/201901/c_5075088_1546423390258jpg@200w_200h",
+                "pl_gr_id": "丫丫",
+                "pl_gr_time": "5个月前",
+                "pl_gr_cont": "二轮车队登顶妙峰山",
+                "pl_gr_src": "",
+                "pl_gr_src1": ""
+            },
+            {
+                "pl_gr_img": "http://pics.blackbirdsport.com/album/201808/c_1112263_1534334016925jpg@200w_200h",
+                "pl_gr_id": "世成",
+                "pl_gr_time": "5个月前",
+                "pl_gr_cont": "六月一日早晨一行八人，骑行全部登顶妙峰山。",
+                "pl_gr_src": "http://pics.blackbirdsport.com/stream/201906/1097793_1559799398244jpg@640w_400h"
+            },
+            {
+                "pl_gr_img": "http://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTJlyV9K2MDFGPWV9FffECxOtrLdt65HZ0WW7IBM6gFr5uicQg2ckJTLzr2ghP8eExV5qUxwD5zR87w/132",
+                "pl_gr_id": "A大旭",
+                "pl_gr_time": "6个月前",
+                "pl_gr_cont": "5月13号去的骑友比较多两小时上去的",
+                "pl_gr_src": "",
+                "pl_gr_src1": ""
+            },
+            {
+                "pl_gr_img": "http://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTJlyV9K2MDFGPWV9FffECxOtrLdt65HZ0WW7IBM6gFr5uicQg2ckJTLzr2ghP8eExV5qUxwD5zR87w/132",
+                "pl_gr_id": "A大旭",
+                "pl_gr_time": "6个月前",
+                "pl_gr_cont": "",
+                "pl_gr_src": "http://pics.blackbirdsport.com/stream/201905/4816225_1557838800926jpg@640w_400h"
+            },
+            {
+                "pl_gr_img": "http://pics.blackbirdsport.com/album/201909/c_5285769_1567555057754jpg@200w_200h",
+                "pl_gr_id": "骑游万里行",
+                "pl_gr_time": "8个月前",
+                "pl_gr_cont": "风力大七级，骑行坚决下去妙峰山及阳台山",
+                "pl_gr_src": "http://pics.blackbirdsport.com/stream/201904/3019158_1554156063574jpg@640w_400h"
+            },
+            {
+                "pl_gr_img": "http://pics.blackbirdsport.com/album/201903/c_5197284_1553082014594jpg@200w_200h",
+                "pl_gr_id": "写意低碳生活",
+                "pl_gr_time": "8个月前",
+                "pl_gr_cont": "差不多有1000m",
+                "pl_gr_src": "",
+                "pl_gr_src1": ""
+            },
+            {
+                "pl_gr_img": "http://thirdwx.qlogo.cn/mmopen/vi_32/bsjIvd4ibG8kibibIr6Ywoiap8eTRDfgNFdUMJ1bqHrej8EGwDZ8F4enuVOUicSfypTKYmZHqa2Qz9c8iczQciaHCn4mw/132",
+                "pl_gr_id": "随缘",
+                "pl_gr_time": "8个月前",
+                "pl_gr_cont": "多大坡度？",
+                "pl_gr_src": "",
+                "pl_gr_src1": ""
+            },
+            {
+                "pl_gr_img": "http://thirdwx.qlogo.cn/mmopen/vi_32/S5hz2hqljY6ImGL9lU5a6OicNcDiaqsowKiargh1xZ0tNxqbHcTmewkcthyxh7aww7NMBEvB4THuBn67fK5V9HF6g/132",
+                "pl_gr_id": "戴德感恩",
+                "pl_gr_time": "8个月前",
+                "pl_gr_cont": "2019第一骑妙峰山那叫一个爽！刚买的挑战者900，太好骑了！",
+                "pl_gr_src": "",
+                "pl_gr_src1": ""
+            },
+            {
+                "pl_gr_img": "http://pics.blackbirdsport.com/album/201606/c_939929_1465809793235.jpg@200w_200h",
+                "pl_gr_id": "盖州★像风一样自由",
+                "pl_gr_time": "9个月前",
+                "pl_gr_cont": "2月23号，第一次骑妙峰山，感觉挺不错的！",
+                "pl_gr_src": "http://pics.blackbirdsport.com/stream/201902/692214_1550947157664jpg@640w_400h"
+            },
+            {
+                "pl_gr_img": "http://pics.blackbirdsport.com/album/201901/c_5151654_1548068035605jpg@200w_200h",
+                "pl_gr_id": "黄色领骑衫",
+                "pl_gr_time": "9个月前",
+                "pl_gr_cont": "妙峰山",
+                "pl_gr_src": "http://pics.blackbirdsport.com/stream/201902/5026869_1550064232012jpg@640w_400h"
+            },
+            {
+                "pl_gr_img": "http://pics.blackbirdsport.com/album/201901/c_5151654_1548068035605jpg@200w_200h",
+                "pl_gr_id": "黄色领骑衫",
+                "pl_gr_time": "9个月前",
+                "pl_gr_cont": "去年9月从锦州出发，骑行北京妙峰山，完美！难度适中",
+                "pl_gr_src": "",
+                "pl_gr_src1": ""
+            },
+            {
+                "pl_gr_img": "http://pics.blackbirdsport.com/album/201908/c_5063063_1565051845769jpg@200w_200h",
+                "pl_gr_id": "风水宝龙",
+                "pl_gr_time": "9个月前",
+                "pl_gr_cont": "一定要去",
+                "pl_gr_src": "",
+                "pl_gr_src1": ""
+            },
+            {
+                "pl_gr_img": "http://thirdqq.qlogo.cn/qqapp/100521394/A347206829F22AF70F3DF17207881257/40",
+                "pl_gr_id": "稀里糊涂66",
+                "pl_gr_time": "10个月前",
+                "pl_gr_cont": "你好 在吗 ？",
+                "pl_gr_src": "",
+                "pl_gr_src1": ""
+            },
+            {
+                "pl_gr_img": "http://pics.blackbirdsport.com/album/201810/c_2609204_1540003211030jpg@200w_200h",
+                "pl_gr_id": "刀疤飞",
+                "pl_gr_time": "10个月前",
+                "pl_gr_cont": "这坡度，这海拔爬升，在我们四川不算好难",
+                "pl_gr_src": "",
+                "pl_gr_src1": ""
+            },
+            {
+                "pl_gr_img": "http://thirdwx.qlogo.cn/mmopen/vi_32/DYAIOgq83eoObiaiawkjMgO1ZspGZCrTM06NeVnQN3MCKCNIM8ZvGsHsy3XYs1u99icCOZz24xQFgbzCOHEMxibySw/132",
+                "pl_gr_id": "辉煌1871028866.....",
+                "pl_gr_time": "11个月前",
+                "pl_gr_cont": "回复@冉阿:几点集合？",
+                "pl_gr_src": "",
+                "pl_gr_src1": ""
+            },
+            {
+                "pl_gr_img": "http://pics.blackbirdsport.com/album/201908/c_5051427_1566036848303jpg@200w_200h",
+                "pl_gr_id": "Runze",
+                "pl_gr_time": "11个月前",
+                "pl_gr_cont": "",
+                "pl_gr_src": "http://pics.blackbirdsport.com/stream/201812/4787790_1546006810637jpg@640w_400h"
+            },
+            {
+                "pl_gr_img": "http://q.qlogo.cn/qqapp/100521394/B66EB8FA37C9369EC2F2F23A882B52C4/40",
+                "pl_gr_id": "邱亮",
+                "pl_gr_time": "1年前",
+                "pl_gr_cont": "回复@知足常乐-老驴:天哪，怎么这么快，几公里",
+                "pl_gr_src": "",
+                "pl_gr_src1": ""
+            },
+            {
+                "pl_gr_img": "http://thirdwx.qlogo.cn/mmopen/vi_32/WjokMJOIKmNNeH3icSXkd07M9vHibCD7PmOpoJD2yZziajfnTZtJEPdPSuRsQDICh1j0O5RliaXK9BnMWx4G69S2Gw/132",
+                "pl_gr_id": "邓大大",
+                "pl_gr_time": "1年前",
+                "pl_gr_cont": "买了车，首骑妙峰山，遇见几个北京大爷，给了我们鼓励，也陪我我们的勇气，首骑，虽然时间长，但是达到了顶峰，很累，很累，但是特别高兴，心里特别舒服。下次还要去，正在组织",
+                "pl_gr_src": "",
+                "pl_gr_src1": ""
+            },
+            {
+                "pl_gr_img": "http://pics.blackbirdsport.com/album/201906/c_3737935_1560088178628jpg@200w_200h",
+                "pl_gr_id": "知足",
+                "pl_gr_time": "1年前",
+                "pl_gr_cont": "一路照了几张照片溜溜达达的2个小时也上去了。",
+                "pl_gr_src": "http://pics.blackbirdsport.com/stream/201810/2608797_1539681425906jpg@640w_400h"
+            },
+            {
+                "pl_gr_img": "http://pics.blackbirdsport.com/album/201806/c_3171141_1528587527561.jpg@200w_200h",
+                "pl_gr_id": "上善若水",
+                "pl_gr_time": "1年前",
+                "pl_gr_cont": "回复@乡亲:骑车四个月妙峰山要游",
+                "pl_gr_src": "http://pics.blackbirdsport.com/stream/201810/2739681_1539064306767jpg@640w_400h"
+            },
+            {
+                "pl_gr_img": "http://pics.blackbirdsport.com/album/201806/c_3171141_1528587527561.jpg@200w_200h",
+                "pl_gr_id": "上善若水",
+                "pl_gr_time": "1年前",
+                "pl_gr_cont": "不爬妙峰山不知自己腿有多菜啊",
+                "pl_gr_src": "",
+                "pl_gr_src1": ""
+            },
+            {
+                "pl_gr_img": "http://pics.blackbirdsport.com/album/201807/c_2950265_1532858708234.jpg@200w_200h",
+                "pl_gr_id": "苦咖啡",
+                "pl_gr_time": "1年前",
+                "pl_gr_cont": "下一个目标 妙峰山 4小时 60公里天路干完了 这些应该都不是事儿了",
+                "pl_gr_src": "",
+                "pl_gr_src1": ""
+            },
+            {
+                "pl_gr_img": "http://pics.blackbirdsport.com/album/201808/c_3691309_1534917199008jpg@200w_200h",
+                "pl_gr_id": "老铁",
+                "pl_gr_time": "1年前",
+                "pl_gr_cont": "就是自残",
+                "pl_gr_src": "",
+                "pl_gr_src1": ""
+            },
+            {
+                "pl_gr_img": "http://pics.blackbirdsport.com/album/201808/c_3754337_1533643545079jpg@200w_200h",
+                "pl_gr_id": "周口─刘兵",
+                "pl_gr_time": "1年前",
+                "pl_gr_cont": "回复@°ゞ蕶亂ゞ:666",
+                "pl_gr_src": "",
+                "pl_gr_src1": ""
+            },
+            {
+                "pl_gr_img": "http://thirdwx.qlogo.cn/mmopen/vi_32/EsQ3cOZmItOzNRsyTc0bPHNnd6DCn7oXumdE2LC1EhuYeicTzWGIZaQVK6GRiceiafGOMHmS0mvK6Fo1MITtAXZiaA/132",
+                "pl_gr_id": "段玉文",
+                "pl_gr_time": "1年前",
+                "pl_gr_cont": "这个路线怎么用啊，我怎么跟着这个路线走呢",
+                "pl_gr_src": "",
+                "pl_gr_src1": ""
+            },
+            {
+                "pl_gr_img": "http://pics.blackbirdsport.com/album/201905/c_5045458_1558922812595jpg@200w_200h",
+                "pl_gr_id": "菁菁",
+                "pl_gr_time": "1年前",
+                "pl_gr_cont": "130分钟，没推车",
+                "pl_gr_src": "",
+                "pl_gr_src1": ""
+            },
+            {
+                "pl_gr_img": "http://pics.blackbirdsport.com/album/201711/c_2699573_1510644237059.jpg@200w_200h",
+                "pl_gr_id": "昀昀",
+                "pl_gr_time": "1年前",
+                "pl_gr_cont": "今年首骑妙峰山 很菜 大神们别嘲笑",
+                "pl_gr_src": "http://pics.blackbirdsport.com/stream/201806/2371786_1529159128749.jpg@640w_400h"
+            },
+            {
+                "pl_gr_img": "http://pics.blackbirdsport.com/album/201902/c_2750722_1551324164883jpg@200w_200h",
+                "pl_gr_id": "张燕程",
+                "pl_gr_time": "1年前",
+                "pl_gr_cont": "",
+                "pl_gr_src": "http://pics.blackbirdsport.com/stream/201806/2412894_1528780823894.jpg@640w_400h"
+            },
+            {
+                "pl_gr_img": "http://pics.blackbirdsport.com/album/201902/c_2750722_1551324164883jpg@200w_200h",
+                "pl_gr_id": "张燕程",
+                "pl_gr_time": "1年前",
+                "pl_gr_cont": "",
+                "pl_gr_src": "http://pics.blackbirdsport.com/stream/201806/2412894_1528780712291.jpg@640w_400h"
+            }
+        ]
+    }
+]

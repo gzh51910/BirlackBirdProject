@@ -1,0 +1,37 @@
+.Download{
+    position: relative;
+    overflow: hidden;
+    border-bottom: 2px solid #999999;
+    margin-bottom: 20px;
+    .logo{
+        width: 60px;
+        position: absolute;
+        top: 40px;
+        left: 50%;
+        margin-left: -30px;
+    }
+    .Download_title{
+        font-size: 38px;
+        line-height: 38px;
+        margin-top: 120px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .Download_info{
+        text-align: center;
+    }
+    img{
+        display: block;
+    }
+    .Download_img{
+        margin-left: 50%;
+        img{
+            margin-left: -67px;
+        }
+    }
+    .phone_img{
+        width: 345px;
+        height: 371px;
+        margin: 20px 5%;
+    }
+}

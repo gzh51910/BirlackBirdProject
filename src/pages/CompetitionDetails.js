@@ -16,15 +16,15 @@ class CompetitionDetails extends Component {
     async componentDidMount() {
         let { id } = this.props.match.params
         id = (id * 1).toFixed(1)
-        let { data: { data: ComponentDidMount } } = await axios.get(mainUrl + "/goods", {
+        let { data: { data: Competition } } = await axios.get(mainUrl + "/goods", {
             params: {
                 gather: "Competition",
                 condition: "activityId",
-                condition_value: 79573
+                condition_value: id
             }
         });
 
-        let commedList = ComponentDidMount
+        let commedList = Competition
 
         this.setState({
             commedList
@@ -46,6 +46,8 @@ class CompetitionDetails extends Component {
                         let endTime = new Date(item.endTime)
                         endTime = `${endTime.getFullYear()}-${endTime.getMonth()}-${endTime.getDate()} ${endTime.getHours()}:${endTime.getMinutes()}`
 
+                        console.log(item);
+
                         return <div key={item._id}>
                             <div className="CompetitionDetails_top">
                                 <img src={item.activityPhoto} />
@@ -55,7 +57,7 @@ class CompetitionDetails extends Component {
                                     <p>报名截止时间	<span>{apply_endTime}</span></p>
                                     <p>比赛时间	<span>{item.startTime} 至 {endTime}</span></p>
                                     <p>地点	<span>{item.assemblyAddress}</span></p>
-                                    <img src={item.imageLink} />
+                                    <img src="http://pics.blackbirdsport.com/album/201909/3168281_1568717529111.png" />
                                 </div>
                             </div>
                             <div className="CompetitionDetails_main">
@@ -79,10 +81,38 @@ class CompetitionDetails extends Component {
                                         </div>
                                     </TabPane>
                                     <TabPane tab="报名名单" key="2">
-                                        Content of Tab Pane 2
-                            </TabPane>
+                                        <div className="apply_list">
+                                            <table border="1">
+                                                <thead>
+                                                    <tr>
+                                                        <td>姓名</td>
+                                                        <td>组织</td>
+                                                        <td>报名日期</td>
+                                                        <td>报名状态</td>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>周**</td>
+                                                        <td>逍遥组</td>
+                                                        <td>2019.11.12 22：52：23</td>
+                                                        <td>已用过</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </TabPane>
                                     <TabPane tab="评论" key="3">
-                                        Content of Tab Pane 3
+                                        <div className="apply_comment">
+                                            <dl>
+                                                <dt>
+                                                    <img src="http://pics.blackbirdsport.com/album/201906/c_5263850_1559472793991jpg@200w_200h"/>
+                                                </dt>
+                                                <dd>燕州～城市  F1 ！</dd>
+                                                <dd>很想参加</dd>
+                                            </dl>
+                                            <span>5天前</span>
+                                        </div>
                             </TabPane>
                                 </Tabs>
                             </div>
