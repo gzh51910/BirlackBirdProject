@@ -1,0 +1,214 @@
+.ant-carousel .slick-slide {
+    text-align: center;
+    height: 160px;
+    line-height: 160px;
+    background: #364d79;
+    overflow: hidden;
+  }
+  
+.ant-carousel .slick-slide h3 {
+color: #fff;
+}
+.ant-tabs-nav{
+    width: 100%;
+    .ant-tabs-tab{
+        width: 50%;
+        margin-right: 0px;
+        text-align: center;
+    }
+}
+
+.CircuitDetails_info_mian{
+    .mian_top{
+        width: 100%;
+        height: 73px;
+        border-top: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+        content: "";
+        overflow: hidden;
+        display: block;
+        clear: both;
+        position: relative;
+        dl{
+            padding: 5%;
+            dt{
+                width: 34px;
+                height: 34px;
+                overflow: hidden;
+                float: left;
+                border-radius: 50%;
+                img{
+                    width: 100%;
+                }
+            }
+            dd{
+                float: left;
+                width: 80%;
+                margin-bottom: 0px;
+                margin-left: 10px;
+            }
+        }
+        span{
+            position: absolute;
+            bottom:10px;
+            right: 10px;
+        }
+    }
+    .main_info{
+        width: 100%;
+        padding: 5%;
+        margin-top: 10px;
+        border-top: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+        .main_info_title{
+            border-bottom:1px solid #ccc;
+            padding-bottom: 10px;
+        }
+        .main_info_cont{
+            width: 100%;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 3;
+            overflow: hidden;
+        }
+    }
+    .main_ballplayer{
+        margin-top: 10px;
+        padding: 5%;
+        border-top: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+        .lately{
+            width: 100%;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #ccc;
+        }
+        dl{
+            content: "";
+            overflow: hidden;
+            display: block;
+            clear: both;
+            height: 48px;
+            dt{
+                border-radius: 100%;
+                float: left;
+                overflow: hidden;
+                width: 34px;
+                height: 34px;
+                img{
+                    width: 100%;
+                }
+            }
+            dd{
+                width: 80%;
+                height: 100%;
+                line-height: 40px;
+                margin-left: 10px;
+                float: left;
+                border-bottom: 1px solid #ccc;
+            }
+        }
+    }
+    .nearby{
+        margin-top: 10px;
+        width: 100%;
+        padding: 5%;
+        border-top:1px solid #ccc;
+        border-bottom:1px solid #ccc;
+        content: "";
+        overflow: hidden;
+        display: block;
+        clear: both;
+        .nearby_title{
+            border-bottom:1px solid #ccc;
+            padding-bottom: 10px;
+        }
+        dl{
+            float: left;
+        }
+        .nearby_left{
+            height: 48px;
+            width: 65%;
+            dt{
+                width: 66px;
+                height: 66px;
+                float: left;
+                overflow: hidden;
+                img{
+                    height: 100%;
+                }
+            }
+            dd{
+                width: 50%;
+                margin-left: 10px;
+                float: left;
+                margin-bottom: 0px;
+                padding-bottom: 10px;
+            }
+        }
+        .nearby_right{
+            height: 48px;
+            float: right;
+            width: 35%;
+            dt{
+                width: 34px;
+                height: 34px;
+                float: left;
+                overflow: hidden;
+                border-radius: 100%;
+                img{
+                    height: 100%;
+                }
+            }
+            dd{
+                width: 50%;
+                margin-left: 10px;
+                float: left;
+                margin-bottom: 0px;
+            }
+        }
+    }
+}
+.discuss{
+    width: 100%;
+    padding:5%;
+    margin-top: 10px;
+    border-top: 1px solid #ccc;
+    .discuss_cont{
+        dl{
+            content: "";
+            overflow: hidden;
+            display: block;
+            clear: both;
+            position: relative;
+            dt{
+                width: 34px;
+                overflow: hidden;
+                border-radius: 100%;
+                float: left;
+                img{
+                    width: 100%;
+                }
+            }
+            dd{
+                float: left;
+                margin-left: 10px;
+                margin-bottom: 0px;
+                width: 86%;
+                &:nth-last-of-type(1){
+                    padding-bottom: 10px;
+                    border-bottom:1px solid #ccc;
+                }
+                .gr_src{
+                    width: 146px;
+                }
+            }
+            span{
+                position: absolute;
+                top: 0;
+                right: 0;
+            }
+        }
+        
+    }
+}
