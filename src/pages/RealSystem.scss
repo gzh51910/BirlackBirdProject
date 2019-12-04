@@ -1,0 +1,115 @@
+.RealSystem{
+    width: 100%;
+    video{
+        width: 100%;
+        height: 100%;
+    }
+   .title{
+        text-align: center;
+        padding: 10px 0 20px;
+        font-size: 16px;
+        color: #001325;
+    }
+    .main1{
+        width: 100%;
+        height: 100px;
+        .Mac{
+            width: 50%;
+            float: left;
+            .image1{
+                display: block;
+                width: 86px;
+                height: 82px;
+                margin:0px 50px 10px;
+            }
+            .Mac_bottom{
+                text-align: center;
+                width: 86px;
+                height: 15px;
+                font-size: 12px;
+                line-height: 15px;
+                margin:0px 50px 0px;
+                border-radius:20px;
+                background-color: #c0c0c0;
+            }
+        }
+        .Window{
+            width: 50%;
+            text-align: center;
+            float: left;
+            .image1{
+                display: block;
+                width: 86px;
+                height: 82px;
+                margin:0px 50px 10px;
+            }
+            .Window_bottom{
+                font-size: 12px;
+                line-height: 15px;
+                text-align: center;
+                width: 86px;
+                height: 15px;
+                margin:0px 50px 0px;
+                border-radius:20px;
+                background-color: #00BA57;
+            }
+        }
+    }
+    .main2{
+        width: 100%;
+        margin-top: 40px;
+        margin-bottom: 10px;
+        .center1{
+            height: 36px;
+            a{
+                font-size: 4px;
+                color: #212529;
+                margin: 0px 40px;
+            }
+           
+        }
+        .center2{
+            height: 36px;
+            a{
+                font-size: 1px;
+                color: #212529;
+                margin: 0px 40px; 
+            }
+           
+        }
+    }
+    .nav{
+        li{
+            height: 150px;
+            list-style: none;
+            .img{
+               float: left;
+                img{
+                    width: 189px;
+                    height: 120px;
+                    margin-left: -40px;
+                    padding-left: 20px;
+                }
+            }
+            .nav_title{
+                width: 150px;
+                height: 120px;
+                float: left;
+                color: #7a7e83;
+                text-indent: 40px;
+                margin-left: -10px;
+                margin-right: 20px;
+                h2{
+                    font-size: 15px;
+                }
+                p{
+                    font-size: 1px;
+                    margin:0;
+                   
+                }
+            }
+        }
+    }
+   
+
+}

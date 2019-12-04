@@ -14,6 +14,7 @@ import Summarize from './pages/Summarize';
 import TeamGames from './pages/TeamGames';
 import RealSystem from './pages/RealSystem';
 
+
 import Android from './img/download-android.png'
 import Iphone from './img/download-iphone.png'
 import WeiXin from './img/weixin_gongzhonghao.png'
@@ -21,6 +22,7 @@ import Enlist from './pages/Enlist';
 
 import AppHeader from './components/Home_header';
 import { Drawer, Button, Radio, Collapse, Icon,Input } from 'antd';
+
 const { Panel } = Collapse;
 const RadioGroup = Radio.Group;
 
