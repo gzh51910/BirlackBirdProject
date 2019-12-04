@@ -110,7 +110,7 @@ class App extends Component {
             <Route path="/login" component={Login} />
             <Route path="/circuit" component={Circuit} />
             <Route path="/realsystem" component={RealSystem} />
-            <Route path="/circuitdetails" component={CircuitDetails} />
+            <Route path="/circuitdetails/:id" component={CircuitDetails} />
             <Route path="/competition" component={Competition} />
             <Route path="/competitiondetails/:id" component={CompetitionDetails} />
             <Route path="/download" component={Download} />

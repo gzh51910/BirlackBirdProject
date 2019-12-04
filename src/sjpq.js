@@ -59,7 +59,7 @@ request(options, (error, response, body) => {
             goods2.info_top_img = $('.media-object').attr('src')
             
             goods2.info_top_id = $('.media .city-time .text-overflow').eq(1).text()
-            console.log($('.create-route-user .activity-info .text-overflow span').eq(1).text());
+            // console.log($('.create-route-user .activity-info .text-overflow span').eq(1).text());
 
             goods.a_src = a_src1
 

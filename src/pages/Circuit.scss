@@ -106,6 +106,14 @@
                     width: 100%;
                     position: absolute;
                     top: 32%;
+                    a{
+                        color:white;
+                        text-decoration: none;
+                        cursor: pointer;
+                        &:hover{
+                            text-decoration: underline white;
+                        }
+                    }
                     .text{
                         text-align: center;
                         font-size: 24px;
