@@ -10,7 +10,7 @@ export function withToken(InnerComponent){
             }
         }
         componentDidMount(){
-            let Authorization = localStorage.getItem('Token');
+            let Authorization = localStorage.getItem('Authorization');
             this.setState({
                 Authorization
             })

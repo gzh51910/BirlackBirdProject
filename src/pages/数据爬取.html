@@ -77,6 +77,20 @@
         JSON.stringify(all2_arr)
 
 
+        var oLis = document.querySelectorAll(".journals-item")
+        var arr = []
+        for (var i = 0, len = oLis.length; i < len; i++) {
+            var o = {}
+            o.titleSrc = oLis[i].querySelector(".photo img").src
+            o.id=oLis[i].querySelector(".nickname").innerText
+            o.time=oLis[i].querySelector(".create-time").innerText
+            o.cont=oLis[i].querySelector(".journal-info-lf .title").innerText
+            o.praise=oLis[i].querySelector(".journal-info-lf .kudos").innerText
+            o.pl=oLis[i].querySelector(".journal-info-lf .comments").innerText
+            o.img=oLis[i].querySelector(".faceImage img").src
+            arr.push(o)
+        }
+        JSON.stringify(arr)
     </script>
 </body>
 

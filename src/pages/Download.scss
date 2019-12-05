@@ -25,8 +25,26 @@
     }
     .Download_img{
         margin-left: 50%;
+        position: relative;
         img{
             margin-left: -67px;
+        }
+        .ewm_box{
+            position: absolute;
+            top: 40px;
+            left: -134px;
+            width: 280px;
+            background: white;
+            padding: 6px;
+            text-align: center;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            overflow: hidden;
+            display: none;
+            img{
+                width: 100%;
+                margin-left:0;
+            }
         }
     }
     .phone_img{
