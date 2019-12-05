@@ -1,0 +1,93 @@
+.NumberPlate{
+    ul,ol,li{
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+    }
+    img{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    p{
+        font-size: 16px;
+        text-align: center;
+        margin-bottom: 6px;
+        color: #33b133;
+    }
+    .NumberPlate_header,.NumberPlate_main{
+        padding: 5%;
+    }
+    .selling_price,.include{
+        color: #f43530;
+        font-weight: bold;
+    }
+    .NumberPlate_footer{
+        border-top: 1px solid #666;
+        .select_title{
+            padding:2% 5%;
+            text-align: left;
+            color: #333;
+        }
+        .NumberPlate_footer_select{
+            p{
+                padding: 0 5%;
+                text-align: left;
+                color: #333;
+                line-height: 44px;
+                border-top: 1px solid #ccc;
+                border-bottom: 1px solid #ccc;
+                margin: 0;
+            }
+            select{
+                width: 100%;
+                height: 44px;
+                padding: 0 10px;
+                border: 1px solid #ccc;
+            } 
+        }
+        .select_num{
+            margin-top: 20px;
+            ul{
+                padding: 3%;
+                border-top: 1px solid #ccc;
+                border-bottom: 1px solid #ccc;
+                content: "";
+                overflow: hidden;
+                display: block;
+                clear: both;
+                li{
+                    width: 20%;
+                    height: 24px;
+                    border: 1px solid #ccc;
+                    text-align: center;
+                    line-height: 24px;
+                    font-size: 16px;
+                    float: left;
+                }
+                .bg_red{
+                    background: rgba(255,0,0,.6);
+                }
+            }
+            p{
+                margin-top: 10px;
+                margin-bottom: 10px;
+                font-size: 26px;
+                font-weight: bold;
+                color: black;
+                i{
+                    color: red;
+                }
+            }
+        }
+        .enter{
+            width: 94%;
+            margin-left: 3%;
+            background: #1aad19;
+            height: 46px;
+            border-radius:6px;
+            color: white;
+            font-style: 16px;
+            line-height: 46px;
+        }
+    }
+}
